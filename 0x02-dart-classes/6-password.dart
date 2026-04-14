@@ -21,4 +21,9 @@ class Password{
 
     return upper && lower && number;
   }
+
+  @override
+  String toString(){
+    return "Your Password is: $password";
+  }
 }
